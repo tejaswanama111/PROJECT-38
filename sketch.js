@@ -84,17 +84,11 @@ function draw() {
     camera.position.x = trex.x;
     camera.position.y = trex.y;
 
-    camera.position.x = invisibleGround.x;
-    camera.position.y = invisibleGround.y;
-
     camera.position.x = obstaclesGroup.x;
     camera.position.y = obstaclesGroup.y;
 
     camera.position.x = cloudsGroup.x;
     camera.position.y = cloudsGroup.y;
-  
-    camera.position.x = gameOver.x;
-    camera.position.y = gameOver.y;
 
     camera.position.x = restart.x;
     camera.position.y = restart.y;
