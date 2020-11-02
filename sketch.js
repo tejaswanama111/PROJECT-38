@@ -83,15 +83,6 @@ function draw() {
 
     camera.position.x = trex.x;
     camera.position.y = trex.y;
-
-    camera.position.x = obstaclesGroup.x;
-    camera.position.y = obstaclesGroup.y;
-
-    camera.position.x = cloudsGroup.x;
-    camera.position.y = cloudsGroup.y;
-
-    camera.position.x = restart.x;
-    camera.position.y = restart.y;
     
     trex.velocityY = trex.velocityY + 0.8
   
